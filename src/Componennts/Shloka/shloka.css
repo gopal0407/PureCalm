@@ -1,0 +1,25 @@
+.shloka-card {
+    background-color: #198754;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.shloka-card:hover {
+    background-color: #13543b;
+}
+
+.shloka-card .card-body {
+    padding: 20px;
+}
+
+.shloka-card .card-title {
+    font-weight: bold;
+}
+
+.shloka-card .card-text {
+    font-size: 18px;
+}
