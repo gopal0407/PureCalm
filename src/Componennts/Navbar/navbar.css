@@ -1,0 +1,27 @@
+.navv{
+    border-bottom: 1px solid white;
+}
+
+.navlink,.navlinkDropdown{
+    color: #77c5b2;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.navlink:hover{
+    color: #c5e1d4;
+}
+
+.navlink.active{
+    color: white;
+}
+
+.navlinkDropdown{
+    color: #417a6c;
+}
+.navlinkDropdown:active{
+    color: #1d493e;
+}
+

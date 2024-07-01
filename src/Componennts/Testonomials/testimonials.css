@@ -1,0 +1,41 @@
+.testimonial {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 30px;
+}
+
+.testimonial:hover {
+    transform: translateY(-5px);
+}
+
+
+.testimonial p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: rgb(71, 71, 71);
+}
+
+.testimonial h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .testimonial {
+        padding: 10px;
+    }
+
+    .testimonial p {
+        font-size: 14px;
+    }
+
+    .testimonial h4 {
+        font-size: 16px;
+    }
+}

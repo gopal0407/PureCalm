@@ -1,0 +1,26 @@
+.foot{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer{
+    background-color: #198754;
+    color: white;
+}
+
+.navlink{
+    color: #77c5b2;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.navlink:hover{
+    color: #c5e1d4;
+}
+
+.navlink.active{
+    color: white;
+}

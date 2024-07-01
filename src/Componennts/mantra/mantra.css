@@ -1,0 +1,51 @@
+.mantras-section {
+    padding: 50px 0;
+}
+
+.mantras-section h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.mantras-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mantra-card {
+    width: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #198754;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.mantra-card:hover {
+    background-color: #13543b;
+}
+
+.mantra-card .card-body {
+    text-align: center;
+}
+
+.mantra-card .card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.mantra-card .card-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .mantra-card {
+        width: 100%;
+        margin: 10px;
+    }
+}

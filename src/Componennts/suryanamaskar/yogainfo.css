@@ -1,0 +1,92 @@
+.yogaInfoMain {
+    margin: 50px 0;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.gallery-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.another-section {
+    background-color: #198754;
+    color: white;
+    padding: 20px;
+}
+
+.nextBtn {
+    background-color: #198754;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.yogaInfoCardsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.yogaInfoCards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    text-align: center;
+}
+
+.yogaInfoCard {
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(5, 68, 3, 0.692);
+    background: rgba(190, 190, 190, 0.247);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+    .yogaInfoCards {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .image-gallery {
+        flex-direction: column;
+    }
+    
+    .gallery-image {
+        max-width: 100%;
+    }
+    
+    .yogaInfoCards {
+        grid-template-columns: 1fr;
+    }
+}
