@@ -27,5 +27,6 @@ State Management: React Hooks / Context API
 
 Here is the Website Link where you can check the whole website with given code above  https://purecalma.netlify.app/
 
+<img width="1920" height="1080" alt="Screenshot (180)" src="https://github.com/user-attachments/assets/e879478d-5fb6-41a9-bae0-f1b5f9bfe2dd" />
 
 
